@@ -35,3 +35,7 @@ for row in range(200, 220):
         imageColor[row][column] = [0, 255, 255]  # RGB
 
 cv2.imwrite('files/telecaster_guedes_risco_colorido.jpg', imageColor)
+
+cv2.imshow('Imagem RGB', imageColor)
+cv2.waitKey(0)
+cv2.destroyAllWindows();
