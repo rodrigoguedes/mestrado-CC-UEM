@@ -6,6 +6,10 @@ import matplotlib.image as mpimg
 # OpenCV
 # Lê imagem em tons de cinza
 image = cv2.imread('files/telecaster_guedes.jpg', cv2.IMREAD_GRAYSCALE)
+
+print(image)
+
+
 cv2.imwrite('files/telecaster_guedes_novo.jpg', image)
 
 # transforma a imagem em array
