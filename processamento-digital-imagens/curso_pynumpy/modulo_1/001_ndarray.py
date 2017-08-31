@@ -51,7 +51,7 @@ print('np.arange( 10) = ', np.arange( 10))
 print('np.arange( 3, 8) = ', np.arange( 3,8))
 print('np.arange( 0, 2, 0.5) = ', np.arange( 0, 2, 0.5))
 
-# Gera uma sequência com valor inicial (1), final (2) e número de elemetros
+# Gera uma sequência com valor inicial (1), final (2) e número de elementos
 print('np.arange( 0, 2, 5) = ', np.linspace( 0, 2, 5))
 print('np.arange( 0, 2, 5) = ', np.linspace( 0, 10, 4))
 print('--------------------------------------')
